@@ -1,0 +1,23 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Planes sbd4a</string>
+
+    <string name="action_print">Imprimir</string>
+    <string name="action_delete">Borrar</string>
+
+
+    <string name="message_subject">Android device log</string>
+    <string name="acquiring_log_progress_dialog_message">Acquiring log from the system …</string>
+    <string name="chooser_title">"Select an application to send the log"</string>
+    <string name="failed_to_get_log_message">"Error al recuperar el registro de eventos."</string>
+    <string name="main_dialog_text">"Esta opción permite recoger el registro de eventos y errores que se han podido producir en la aplicaicón.
+Esta información sólo será utilizada por motivos de depuración y mejora de esta aplicación."
+    </string>
+    <string name="device_info_fmt">
+Log Collector version: <xliff:g id="application_version">%s</xliff:g>\n
+Device model: <xliff:g id="device_model">%s</xliff:g>\n
+Firmware version: <xliff:g id="firmware_revision">%s</xliff:g>\n
+Kernel version: <xliff:g id="kernel_version">%s</xliff:g>\n
+Build number: <xliff:g id="build_number">%s</xliff:g>\n
+    </string>
+
+</resources>
